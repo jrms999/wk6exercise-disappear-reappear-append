@@ -1,0 +1,55 @@
+*{
+	background-color: #FAEBD7;
+}
+
+
+#exercise3 img {
+  width: 750px;
+  margin: 0 auto 0 auto;
+  float: center;
+  border-radius:25px;
+  width: 60%;
+  height: 500px;
+}
+
+
+#exercise4 h1 {
+  background-color: tomato;
+  border: 6px solid black;
+  font-size: 30px;
+  width: 75%;
+}
+
+#exercise4 h1.styleSwitch {
+  background-color: blue;
+  border: 10px solid tomato;
+  color: white;
+  font-size: 40px;
+  width: 100%;
+}
+
+#exercise9 {
+  background-color: steelblue;
+  margin: 25px 0;
+  padding: 50px;
+}
+
+#exercise13Div {
+  background-color: cyan;
+  margin: 25px 0;
+  padding: 50px;
+}
+
+
+
+@media (max-width: 600px) {
+    .blue, .green {
+        display: none;
+    }
+
+
+@media (min-width: 1000px) {
+    .box {
+        width: 100%;
+    }
+}
